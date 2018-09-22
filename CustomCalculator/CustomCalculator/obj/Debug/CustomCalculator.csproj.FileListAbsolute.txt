@@ -1,0 +1,11 @@
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb

@@ -9,3 +9,15 @@ C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\Custo
 C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
 C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
 C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources

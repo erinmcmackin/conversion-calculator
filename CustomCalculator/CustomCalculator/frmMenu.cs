@@ -32,5 +32,11 @@ namespace CustomCalculator
         {
             Close();
         }
+
+        private void btnVolume_Click(object sender, EventArgs e)
+        {
+            var formVolume = new frmVolume();
+            formVolume.Show();
+        }
     }
 }

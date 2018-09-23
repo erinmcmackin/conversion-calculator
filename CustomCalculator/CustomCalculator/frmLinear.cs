@@ -80,41 +80,41 @@ namespace CustomCalculator
 
          private void btnConvert_Click(object sender, EventArgs e)
         {
-            decimal inputValue = Convert.ToDecimal(txtLinearValue.Text);
+            decimal inputLinearValue = Convert.ToDecimal(txtLinearValue.Text);
 
-            decimal calculatedInches = inputValue ;
+            decimal calculatedInches = inputLinearValue ;
 
             if (txtLinearUnit.Text == "inches")
             {
-                calculatedInches = inputValue;
+                calculatedInches = inputLinearValue;
             }
             else if (txtLinearUnit.Text == "feet")
             {
-                calculatedInches = inputValue * 12;
+                calculatedInches = inputLinearValue * 12;
             }
             else if (txtLinearUnit.Text == "yards")
             {
-                calculatedInches = inputValue * 36;
+                calculatedInches = inputLinearValue * 36;
             }
             else if (txtLinearUnit.Text == "miles")
             {
-                calculatedInches = inputValue * 63360;
+                calculatedInches = inputLinearValue * 63360;
             }
             else if (txtLinearUnit.Text == "millimeters")
             {
-                calculatedInches = inputValue / 25.4m;
+                calculatedInches = inputLinearValue / 25.4m;
             }
             else if (txtLinearUnit.Text == "centimeters")
             {
-                calculatedInches = inputValue / 2.54m;
+                calculatedInches = inputLinearValue / 2.54m;
             }
             else if (txtLinearUnit.Text == "meters")
             {
-                calculatedInches = inputValue / .0254m;
+                calculatedInches = inputLinearValue / .0254m;
             }
             else if (txtLinearUnit.Text == "kilometers")
             {
-                calculatedInches = inputValue / .0000254m;
+                calculatedInches = inputLinearValue / .0000254m;
             }
 
             decimal calculatedFeet = calculatedInches / 12;

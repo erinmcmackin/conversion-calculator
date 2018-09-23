@@ -42,9 +42,10 @@
             this.lblMenuTitle.AutoSize = true;
             this.lblMenuTitle.Font = new System.Drawing.Font("Microsoft JhengHei", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMenuTitle.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblMenuTitle.Location = new System.Drawing.Point(113, 25);
+            this.lblMenuTitle.Location = new System.Drawing.Point(151, 31);
+            this.lblMenuTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMenuTitle.Name = "lblMenuTitle";
-            this.lblMenuTitle.Size = new System.Drawing.Size(357, 40);
+            this.lblMenuTitle.Size = new System.Drawing.Size(447, 50);
             this.lblMenuTitle.TabIndex = 0;
             this.lblMenuTitle.Text = "Conversion Calculator";
             this.lblMenuTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -55,9 +56,10 @@
             this.btnLinear.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnLinear.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLinear.ForeColor = System.Drawing.Color.White;
-            this.btnLinear.Location = new System.Drawing.Point(175, 100);
+            this.btnLinear.Location = new System.Drawing.Point(233, 123);
+            this.btnLinear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLinear.Name = "btnLinear";
-            this.btnLinear.Size = new System.Drawing.Size(250, 50);
+            this.btnLinear.Size = new System.Drawing.Size(333, 62);
             this.btnLinear.TabIndex = 1;
             this.btnLinear.Text = "&Linear Conversion";
             this.btnLinear.UseVisualStyleBackColor = false;
@@ -69,12 +71,14 @@
             this.btnVolume.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnVolume.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolume.ForeColor = System.Drawing.Color.White;
-            this.btnVolume.Location = new System.Drawing.Point(175, 175);
+            this.btnVolume.Location = new System.Drawing.Point(233, 215);
+            this.btnVolume.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVolume.Name = "btnVolume";
-            this.btnVolume.Size = new System.Drawing.Size(250, 50);
+            this.btnVolume.Size = new System.Drawing.Size(333, 62);
             this.btnVolume.TabIndex = 2;
             this.btnVolume.Text = "&Volume Conversion";
             this.btnVolume.UseVisualStyleBackColor = false;
+            this.btnVolume.Click += new System.EventHandler(this.btnVolume_Click);
             // 
             // btnWeight
             // 
@@ -82,9 +86,10 @@
             this.btnWeight.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnWeight.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnWeight.ForeColor = System.Drawing.Color.White;
-            this.btnWeight.Location = new System.Drawing.Point(175, 250);
+            this.btnWeight.Location = new System.Drawing.Point(233, 308);
+            this.btnWeight.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnWeight.Name = "btnWeight";
-            this.btnWeight.Size = new System.Drawing.Size(250, 50);
+            this.btnWeight.Size = new System.Drawing.Size(333, 62);
             this.btnWeight.TabIndex = 3;
             this.btnWeight.Text = "&Weight Conversion";
             this.btnWeight.UseVisualStyleBackColor = false;
@@ -95,9 +100,10 @@
             this.btnTemp.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnTemp.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTemp.ForeColor = System.Drawing.Color.White;
-            this.btnTemp.Location = new System.Drawing.Point(175, 325);
+            this.btnTemp.Location = new System.Drawing.Point(233, 400);
+            this.btnTemp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTemp.Name = "btnTemp";
-            this.btnTemp.Size = new System.Drawing.Size(250, 50);
+            this.btnTemp.Size = new System.Drawing.Size(333, 62);
             this.btnTemp.TabIndex = 4;
             this.btnTemp.Text = "&Temperature Conversion";
             this.btnTemp.UseVisualStyleBackColor = false;
@@ -109,9 +115,10 @@
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(225, 400);
+            this.btnExit.Location = new System.Drawing.Point(300, 492);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(150, 30);
+            this.btnExit.Size = new System.Drawing.Size(200, 37);
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = false;
@@ -119,16 +126,17 @@
             // 
             // frmMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(584, 461);
+            this.ClientSize = new System.Drawing.Size(779, 567);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnTemp);
             this.Controls.Add(this.btnWeight);
             this.Controls.Add(this.btnVolume);
             this.Controls.Add(this.btnLinear);
             this.Controls.Add(this.lblMenuTitle);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmMenu";
             this.Text = "Conversion Calculator";
             this.Load += new System.EventHandler(this.frmMenu_Load);

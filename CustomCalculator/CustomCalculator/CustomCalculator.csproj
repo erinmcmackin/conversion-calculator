@@ -51,6 +51,7 @@
     </Compile>
     <Compile Include="frmTemp.Designer.cs">
       <DependentUpon>frmTemp.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAreaVolCalc.cs">
       <SubType>Form</SubType>
     </Compile>

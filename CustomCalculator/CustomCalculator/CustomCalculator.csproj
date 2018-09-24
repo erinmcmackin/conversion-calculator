@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAreaVolCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAreaVolCalc.Designer.cs">
+      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLinear.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAreaVolCalc.resx">
+      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLinear.resx">
       <DependentUpon>frmLinear.cs</DependentUpon>
     </EmbeddedResource>

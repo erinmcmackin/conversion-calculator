@@ -44,5 +44,11 @@ namespace CustomCalculator
             var formAreaVolCalc = new frmAreaVolCalc();
             formAreaVolCalc.Show();
         }
+
+        private void btnTemp_Click(object sender, EventArgs e)
+        {
+            var formTemp = new frmTemp();
+            formTemp.Show();
+        }
     }
 }

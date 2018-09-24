@@ -21,5 +21,63 @@ namespace CustomCalculator
         {
 
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            decimal origTemp = Convert.ToDecimal(txtOrigTemp.Text);
+            decimal calcTemp = 0;
+
+            if (radioCel1.Checked == true)
+            {
+                if (radioCel2.Checked == true)
+                {
+
+                }
+                else if (radioFahr2.Checked == true)
+                {
+
+                }
+                else if (radioKel2.Checked == true)
+                {
+
+                }
+            }
+            else if (radioFahr1.Checked == true)
+            {
+                if (radioCel2.Checked == true)
+                {
+
+                }
+                else if (radioFahr2.Checked == true)
+                {
+
+                }
+                else if (radioKel2.Checked == true)
+                {
+
+                }
+            }
+            else if (radioKel1.Checked == true)
+            {
+                if (radioCel2.Checked == true)
+                {
+
+                }
+                else if (radioFahr2.Checked == true)
+                {
+
+                }
+                else if (radioKel2.Checked == true)
+                {
+
+                }
+            }
+
+        }
     }
 }

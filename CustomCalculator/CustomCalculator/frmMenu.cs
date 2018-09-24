@@ -38,5 +38,11 @@ namespace CustomCalculator
             var formVolume = new frmVolume();
             formVolume.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var formAreaVolCalc = new frmAreaVolCalc();
+            formAreaVolCalc.Show();
+        }
     }
 }

@@ -21,3 +21,16 @@ C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmTemp.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb

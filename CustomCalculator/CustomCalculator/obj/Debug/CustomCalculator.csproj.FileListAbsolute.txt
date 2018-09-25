@@ -21,7 +21,6 @@ C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
 C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
-<<<<<<< HEAD
 C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
 C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
 C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
@@ -49,5 +48,4 @@ C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Proje
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
->>>>>>> fb136a9d7b9fc039823f14ed06819754ad7f632d
 C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources

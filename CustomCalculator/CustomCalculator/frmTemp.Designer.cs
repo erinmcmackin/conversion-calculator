@@ -63,7 +63,6 @@
             this.txtOrigTemp.Name = "txtOrigTemp";
             this.txtOrigTemp.Size = new System.Drawing.Size(124, 38);
             this.txtOrigTemp.TabIndex = 1;
-            this.txtOrigTemp.TabStop = false;
             // 
             // radioCel1
             // 
@@ -71,7 +70,8 @@
             this.radioCel1.Location = new System.Drawing.Point(64, 48);
             this.radioCel1.Name = "radioCel1";
             this.radioCel1.Size = new System.Drawing.Size(146, 36);
-            this.radioCel1.TabIndex = 2;
+            this.radioCel1.TabIndex = 0;
+            this.radioCel1.TabStop = true;
             this.radioCel1.Text = "Celsius";
             this.radioCel1.UseVisualStyleBackColor = true;
             // 
@@ -81,7 +81,7 @@
             this.radioFahr1.Location = new System.Drawing.Point(253, 48);
             this.radioFahr1.Name = "radioFahr1";
             this.radioFahr1.Size = new System.Drawing.Size(189, 36);
-            this.radioFahr1.TabIndex = 3;
+            this.radioFahr1.TabIndex = 1;
             this.radioFahr1.Text = "Fahrenheit";
             this.radioFahr1.UseVisualStyleBackColor = true;
             // 
@@ -91,7 +91,7 @@
             this.radioKel1.Location = new System.Drawing.Point(474, 48);
             this.radioKel1.Name = "radioKel1";
             this.radioKel1.Size = new System.Drawing.Size(131, 36);
-            this.radioKel1.TabIndex = 4;
+            this.radioKel1.TabIndex = 2;
             this.radioKel1.Text = "Kelvin";
             this.radioKel1.UseVisualStyleBackColor = true;
             // 
@@ -101,7 +101,8 @@
             this.radioCel2.Location = new System.Drawing.Point(64, 37);
             this.radioCel2.Name = "radioCel2";
             this.radioCel2.Size = new System.Drawing.Size(146, 36);
-            this.radioCel2.TabIndex = 5;
+            this.radioCel2.TabIndex = 0;
+            this.radioCel2.TabStop = true;
             this.radioCel2.Text = "Celsius";
             this.radioCel2.UseVisualStyleBackColor = true;
             // 
@@ -111,7 +112,7 @@
             this.radioFahr2.Location = new System.Drawing.Point(253, 37);
             this.radioFahr2.Name = "radioFahr2";
             this.radioFahr2.Size = new System.Drawing.Size(189, 36);
-            this.radioFahr2.TabIndex = 6;
+            this.radioFahr2.TabIndex = 1;
             this.radioFahr2.Text = "Fahrenheit";
             this.radioFahr2.UseVisualStyleBackColor = true;
             // 
@@ -121,7 +122,7 @@
             this.radioKel2.Location = new System.Drawing.Point(474, 37);
             this.radioKel2.Name = "radioKel2";
             this.radioKel2.Size = new System.Drawing.Size(131, 36);
-            this.radioKel2.TabIndex = 7;
+            this.radioKel2.TabIndex = 2;
             this.radioKel2.Text = "Kelvin";
             this.radioKel2.UseVisualStyleBackColor = true;
             // 
@@ -130,20 +131,21 @@
             this.btnCalculate.Location = new System.Drawing.Point(75, 524);
             this.btnCalculate.Name = "btnCalculate";
             this.btnCalculate.Size = new System.Drawing.Size(304, 71);
-            this.btnCalculate.TabIndex = 9;
-            this.btnCalculate.TabStop = false;
+            this.btnCalculate.TabIndex = 6;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnMenuReturn
             // 
+            this.btnMenuReturn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMenuReturn.Location = new System.Drawing.Point(419, 524);
             this.btnMenuReturn.Name = "btnMenuReturn";
             this.btnMenuReturn.Size = new System.Drawing.Size(308, 71);
-            this.btnMenuReturn.TabIndex = 10;
+            this.btnMenuReturn.TabIndex = 7;
             this.btnMenuReturn.Text = "Menu";
             this.btnMenuReturn.UseVisualStyleBackColor = true;
+            this.btnMenuReturn.Click += new System.EventHandler(this.btnMenuReturn_Click);
             // 
             // label4
             // 
@@ -151,7 +153,7 @@
             this.label4.Location = new System.Drawing.Point(69, 422);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(323, 32);
-            this.label4.TabIndex = 0;
+            this.label4.TabIndex = 4;
             this.label4.Text = "&Converted Temperature:";
             // 
             // txtConvTemp
@@ -160,7 +162,7 @@
             this.txtConvTemp.Name = "txtConvTemp";
             this.txtConvTemp.ReadOnly = true;
             this.txtConvTemp.Size = new System.Drawing.Size(124, 38);
-            this.txtConvTemp.TabIndex = 8;
+            this.txtConvTemp.TabIndex = 5;
             this.txtConvTemp.TabStop = false;
             // 
             // groupBox1
@@ -171,7 +173,7 @@
             this.groupBox1.Location = new System.Drawing.Point(66, 142);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(672, 108);
-            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "From:";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -184,15 +186,17 @@
             this.groupBox2.Location = new System.Drawing.Point(66, 279);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(672, 105);
-            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "To:";
             // 
             // frmTemp
             // 
+            this.AcceptButton = this.btnCalculate;
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 715);
+            this.CancelButton = this.btnMenuReturn;
+            this.ClientSize = new System.Drawing.Size(805, 657);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtConvTemp);
@@ -219,7 +223,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtOrigTemp;
         private System.Windows.Forms.RadioButton radioCel1;
-        private System.Windows.Forms.RadioButton radioFahr1;
         private System.Windows.Forms.RadioButton radioKel1;
         private System.Windows.Forms.RadioButton radioCel2;
         private System.Windows.Forms.RadioButton radioFahr2;
@@ -230,5 +233,6 @@
         private System.Windows.Forms.TextBox txtConvTemp;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton radioFahr1;
     }
 }

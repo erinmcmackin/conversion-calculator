@@ -1,14 +1,53 @@
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\hadentro\source\repos\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\conversion-calculator-master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
+<<<<<<< HEAD
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmTemp.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+=======
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
-C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
+C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
-C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmTemp.resources
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
-C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
+>>>>>>> fb136a9d7b9fc039823f14ed06819754ad7f632d
+C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources

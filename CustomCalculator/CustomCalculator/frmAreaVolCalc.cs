@@ -20,73 +20,47 @@ namespace CustomCalculator
         private void rdVolume_CheckedChanged(object sender, EventArgs e)
         {
             if (rdVolume.Checked)
-            {
-                lblLength.Text = "Length (ft):";
-                txtLength.Text = "0";
-                txtWidth.Text = "0";
-                txtWidth.Visible = true;
-                lblWidth.Visible = true;
+                txtHeight.ReadOnly = false;
                 txtHeight.Text = "0";
                 txtHeight.Visible = true;
                 lblHeight.Visible = true;
-                txtTotal.Text = "";
-            }  
+                
         }
 
         private void rdArea_CheckedChanged(object sender, EventArgs e)
         {
             if (rdArea.Checked)
-            {
-                lblLength.Text = "Length (ft):";
-                txtLength.Text = "0";
-                txtWidth.Text = "0";
-                txtWidth.Visible = true;
-                lblWidth.Visible = true;
+                txtHeight.ReadOnly = true;
                 txtHeight.Text = "0";
                 txtHeight.Visible = false;
                 lblHeight.Visible = false;
-                txtTotal.Text = "";
-            }
         }
 
-        private void rdAreaOfCircle_CheckedChanged(object sender, EventArgs e)
-        {
-            if (rdAreaOfCircle.Checked)
-            {
-                lblLength.Text = "Radius (ft):";
-                txtLength.Text = "0";
-                txtWidth.Text = "0";
-                txtWidth.Visible = false;
-                lblWidth.Visible = false;
-                txtHeight.Text = "0";
-                txtHeight.Visible = false;
-                lblHeight.Visible = false;
-                txtTotal.Text = "";
-            }
-        }
-    
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            double length = Convert.ToDouble(txtLength.Text);
-            double width = Convert.ToDouble(txtWidth.Text);
-            double height = Convert.ToDouble(txtHeight.Text);
-            double total = 0d;
+            decimal length = Convert.ToDecimal(txtLength.Text);
+            decimal width = Convert.ToDecimal(txtWidth.Text);
+            decimal height = Convert.ToDecimal(txtHeight.Text);
+            decimal total = 0m;
 
 
             if (rdArea.Checked)
+            {
                 total = length * width;
-            else if (rdVolume.Checked)
-                total = length * width * height;
+            }
             else
-                total = Math.PI * Math.Pow(length,2);
+            { 
+                total = length * width * height;
+            }
 
             if (rdArea.Checked)
+            {
                 txtTotal.Text = Convert.ToString(total) + " sq. ft.";
-            else if (rdVolume.Checked)
-                txtTotal.Text = Convert.ToString(total) + " cubic ft.";
+            }
             else
-                txtTotal.Text = Convert.ToString(total);
-                
+            {
+                txtTotal.Text = Convert.ToString(total) + " cubic ft.";
+            }
         }
 
         private void btnClearInputs_Click(object sender, EventArgs e)
@@ -101,7 +75,5 @@ namespace CustomCalculator
         {
             this.Close();
         }
-
-
     }
 }

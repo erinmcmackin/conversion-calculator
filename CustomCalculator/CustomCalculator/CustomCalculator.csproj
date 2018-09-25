@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmLinearCalc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinearCalc.Designer.cs">
+      <DependentUpon>frmLinearCalc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTemp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmLinear.resx">
       <DependentUpon>frmLinear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinearCalc.resx">
+      <DependentUpon>frmLinearCalc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>

@@ -48,3 +48,18 @@ C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Proje
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
 C:\Users\mcmac\dev\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
 C:\Users\hwaymel\Dropbox\School\Academic Year_18\.NET Programming\Projects\Project_1\GradeCalculator_Project_1\conversion-calculator\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmTemp.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csprojAssemblyReference.cache
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmAreaVolCalc.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinear.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmMenu.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmTemp.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmVolume.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.Properties.Resources.resources
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.GenerateResource.cache
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe.config
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.exe
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\bin\Debug\CustomCalculator.pdb
+C:\Users\Hector.Lopez\source\repos\Conversion Calculator - Master\CustomCalculator\CustomCalculator\obj\Debug\CustomCalculator.frmLinearCalc.resources

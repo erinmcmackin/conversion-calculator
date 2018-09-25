@@ -33,7 +33,7 @@
             this.rdVolume = new System.Windows.Forms.RadioButton();
             this.txtLength = new System.Windows.Forms.TextBox();
             this.lblLength = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblWidth = new System.Windows.Forms.Label();
             this.lblHeight = new System.Windows.Forms.Label();
             this.txtWidth = new System.Windows.Forms.TextBox();
             this.txtHeight = new System.Windows.Forms.TextBox();
@@ -43,6 +43,7 @@
             this.btnExit = new System.Windows.Forms.Button();
             this.btnClearInputs = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rdAreaOfCircle = new System.Windows.Forms.RadioButton();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -97,14 +98,14 @@
             this.lblLength.TabIndex = 4;
             this.lblLength.Text = "Length ( ft):";
             // 
-            // label1
+            // lblWidth
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 210);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Width ( ft):";
+            this.lblWidth.AutoSize = true;
+            this.lblWidth.Location = new System.Drawing.Point(57, 210);
+            this.lblWidth.Name = "lblWidth";
+            this.lblWidth.Size = new System.Drawing.Size(56, 13);
+            this.lblWidth.TabIndex = 5;
+            this.lblWidth.Text = "Width ( ft):";
             // 
             // lblHeight
             // 
@@ -128,7 +129,6 @@
             // 
             this.txtHeight.Location = new System.Drawing.Point(123, 233);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.ReadOnly = true;
             this.txtHeight.Size = new System.Drawing.Size(100, 20);
             this.txtHeight.TabIndex = 5;
             this.txtHeight.Text = "0";
@@ -193,14 +193,27 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox1.Controls.Add(this.rdAreaOfCircle);
             this.groupBox1.Controls.Add(this.rdVolume);
             this.groupBox1.Controls.Add(this.rdArea);
             this.groupBox1.Location = new System.Drawing.Point(60, 94);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(163, 70);
+            this.groupBox1.Size = new System.Drawing.Size(325, 70);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select Calculation Type";
+            // 
+            // rdAreaOfCircle
+            // 
+            this.rdAreaOfCircle.AutoSize = true;
+            this.rdAreaOfCircle.Location = new System.Drawing.Point(169, 20);
+            this.rdAreaOfCircle.Name = "rdAreaOfCircle";
+            this.rdAreaOfCircle.Size = new System.Drawing.Size(97, 17);
+            this.rdAreaOfCircle.TabIndex = 3;
+            this.rdAreaOfCircle.TabStop = true;
+            this.rdAreaOfCircle.Text = "Area of a Circle";
+            this.rdAreaOfCircle.UseVisualStyleBackColor = true;
+            this.rdAreaOfCircle.CheckedChanged += new System.EventHandler(this.rdAreaOfCircle_CheckedChanged);
             // 
             // frmAreaVolCalc
             // 
@@ -218,7 +231,7 @@
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtWidth);
             this.Controls.Add(this.lblHeight);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblWidth);
             this.Controls.Add(this.lblLength);
             this.Controls.Add(this.txtLength);
             this.Controls.Add(this.lblAreaVolCalc);
@@ -238,7 +251,7 @@
         private System.Windows.Forms.RadioButton rdVolume;
         private System.Windows.Forms.TextBox txtLength;
         private System.Windows.Forms.Label lblLength;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblWidth;
         private System.Windows.Forms.Label lblHeight;
         private System.Windows.Forms.TextBox txtWidth;
         private System.Windows.Forms.TextBox txtHeight;
@@ -248,5 +261,6 @@
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnClearInputs;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.RadioButton rdAreaOfCircle;
     }
 }

@@ -152,5 +152,12 @@ namespace CustomCalculator
         {
             this.Close();
         }
+
+        private void btnLinearCalculator_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            var formLinearCalc = new frmLinearCalc();
+            formLinearCalc.Show();
+        }
     }
 }

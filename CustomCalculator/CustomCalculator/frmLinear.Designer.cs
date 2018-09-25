@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLinear));
             this.lblInch = new System.Windows.Forms.Label();
             this.lblFoot = new System.Windows.Forms.Label();
             this.lblYard = new System.Windows.Forms.Label();
@@ -65,6 +66,7 @@
             this.btnConvert = new System.Windows.Forms.Button();
             this.lblInputValue = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnLinearCalculator = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.ctxMenuUnits.SuspendLayout();
@@ -202,7 +204,7 @@
             this.tableLayoutPanel1.Controls.Add(this.txtYard, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.txtMile, 0, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(87, 185);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -218,7 +220,7 @@
             this.txtInch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtInch.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInch.Location = new System.Drawing.Point(4, 6);
-            this.txtInch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtInch.Margin = new System.Windows.Forms.Padding(4);
             this.txtInch.Name = "txtInch";
             this.txtInch.ReadOnly = true;
             this.txtInch.Size = new System.Drawing.Size(192, 26);
@@ -230,7 +232,7 @@
             this.txtFoot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtFoot.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFoot.Location = new System.Drawing.Point(4, 44);
-            this.txtFoot.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFoot.Margin = new System.Windows.Forms.Padding(4);
             this.txtFoot.Name = "txtFoot";
             this.txtFoot.ReadOnly = true;
             this.txtFoot.Size = new System.Drawing.Size(192, 26);
@@ -242,7 +244,7 @@
             this.txtYard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtYard.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtYard.Location = new System.Drawing.Point(4, 82);
-            this.txtYard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtYard.Margin = new System.Windows.Forms.Padding(4);
             this.txtYard.Name = "txtYard";
             this.txtYard.ReadOnly = true;
             this.txtYard.Size = new System.Drawing.Size(192, 26);
@@ -254,7 +256,7 @@
             this.txtMile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMile.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMile.Location = new System.Drawing.Point(4, 121);
-            this.txtMile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMile.Margin = new System.Windows.Forms.Padding(4);
             this.txtMile.Name = "txtMile";
             this.txtMile.ReadOnly = true;
             this.txtMile.Size = new System.Drawing.Size(192, 26);
@@ -277,7 +279,7 @@
             this.tableLayoutPanel2.Controls.Add(this.txtMeter, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.txtKiloMeter, 0, 3);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(420, 185);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
@@ -292,7 +294,7 @@
             this.txtMilliMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMilliMeter.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMilliMeter.Location = new System.Drawing.Point(4, 6);
-            this.txtMilliMeter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMilliMeter.Margin = new System.Windows.Forms.Padding(4);
             this.txtMilliMeter.Name = "txtMilliMeter";
             this.txtMilliMeter.ReadOnly = true;
             this.txtMilliMeter.Size = new System.Drawing.Size(192, 26);
@@ -304,7 +306,7 @@
             this.txtCentiMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtCentiMeter.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCentiMeter.Location = new System.Drawing.Point(4, 44);
-            this.txtCentiMeter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCentiMeter.Margin = new System.Windows.Forms.Padding(4);
             this.txtCentiMeter.Name = "txtCentiMeter";
             this.txtCentiMeter.ReadOnly = true;
             this.txtCentiMeter.Size = new System.Drawing.Size(192, 26);
@@ -316,7 +318,7 @@
             this.txtMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMeter.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMeter.Location = new System.Drawing.Point(4, 82);
-            this.txtMeter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMeter.Margin = new System.Windows.Forms.Padding(4);
             this.txtMeter.Name = "txtMeter";
             this.txtMeter.ReadOnly = true;
             this.txtMeter.Size = new System.Drawing.Size(192, 26);
@@ -328,7 +330,7 @@
             this.txtKiloMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.txtKiloMeter.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtKiloMeter.Location = new System.Drawing.Point(4, 121);
-            this.txtKiloMeter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtKiloMeter.Margin = new System.Windows.Forms.Padding(4);
             this.txtKiloMeter.Name = "txtKiloMeter";
             this.txtKiloMeter.ReadOnly = true;
             this.txtKiloMeter.Size = new System.Drawing.Size(192, 26);
@@ -355,7 +357,7 @@
             this.btnReturn.Font = new System.Drawing.Font("Microsoft JhengHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReturn.ForeColor = System.Drawing.Color.White;
             this.btnReturn.Location = new System.Drawing.Point(220, 369);
-            this.btnReturn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReturn.Margin = new System.Windows.Forms.Padding(4);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(333, 37);
             this.btnReturn.TabIndex = 12;
@@ -368,7 +370,7 @@
             this.txtLinearValue.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLinearValue.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLinearValue.Location = new System.Drawing.Point(213, 74);
-            this.txtLinearValue.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLinearValue.Margin = new System.Windows.Forms.Padding(4);
             this.txtLinearValue.Name = "txtLinearValue";
             this.txtLinearValue.Size = new System.Drawing.Size(165, 26);
             this.txtLinearValue.TabIndex = 1;
@@ -378,7 +380,7 @@
             this.txtLinearUnit.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.txtLinearUnit.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLinearUnit.Location = new System.Drawing.Point(387, 74);
-            this.txtLinearUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLinearUnit.Margin = new System.Windows.Forms.Padding(4);
             this.txtLinearUnit.Name = "txtLinearUnit";
             this.txtLinearUnit.ReadOnly = true;
             this.txtLinearUnit.Size = new System.Drawing.Size(165, 26);
@@ -465,7 +467,7 @@
             this.btnUnit.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnUnit.ForeColor = System.Drawing.Color.White;
             this.btnUnit.Location = new System.Drawing.Point(387, 105);
-            this.btnUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnUnit.Margin = new System.Windows.Forms.Padding(4);
             this.btnUnit.Name = "btnUnit";
             this.btnUnit.Size = new System.Drawing.Size(167, 31);
             this.btnUnit.TabIndex = 16;
@@ -480,7 +482,7 @@
             this.btnConvert.Font = new System.Drawing.Font("Microsoft JhengHei", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConvert.ForeColor = System.Drawing.Color.White;
             this.btnConvert.Location = new System.Drawing.Point(213, 105);
-            this.btnConvert.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConvert.Margin = new System.Windows.Forms.Padding(4);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(167, 31);
             this.btnConvert.TabIndex = 17;
@@ -512,6 +514,18 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "Linear Unit Converter";
             // 
+            // btnLinearCalculator
+            // 
+            this.btnLinearCalculator.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnLinearCalculator.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLinearCalculator.BackgroundImage")));
+            this.btnLinearCalculator.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnLinearCalculator.Location = new System.Drawing.Point(561, 74);
+            this.btnLinearCalculator.Name = "btnLinearCalculator";
+            this.btnLinearCalculator.Size = new System.Drawing.Size(60, 60);
+            this.btnLinearCalculator.TabIndex = 20;
+            this.btnLinearCalculator.UseVisualStyleBackColor = false;
+            this.btnLinearCalculator.Click += new System.EventHandler(this.btnLinearCalculator_Click);
+            // 
             // frmLinear
             // 
             this.AcceptButton = this.btnConvert;
@@ -519,6 +533,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnReturn;
             this.ClientSize = new System.Drawing.Size(779, 444);
+            this.Controls.Add(this.btnLinearCalculator);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblInputValue);
             this.Controls.Add(this.btnConvert);
@@ -530,7 +545,7 @@
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.lblImperial);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmLinear";
             this.Text = "Linear Unit Converter";
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -581,5 +596,6 @@
         private System.Windows.Forms.Button btnConvert;
         private System.Windows.Forms.Label lblInputValue;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnLinearCalculator;
     }
 }

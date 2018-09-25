@@ -46,17 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmTemp.cs">
+    <Compile Include="frmLinearCalc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmTemp.Designer.cs">
-      <DependentUpon>frmTemp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmAreaVolCalc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAreaVolCalc.Designer.cs">
-      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
+    <Compile Include="frmLinearCalc.Designer.cs">
+      <DependentUpon>frmLinearCalc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLinear.cs">
       <SubType>Form</SubType>
@@ -78,17 +72,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAreaVolCalc.resx">
-      <DependentUpon>frmAreaVolCalc.cs</DependentUpon>
+    <EmbeddedResource Include="frmLinearCalc.resx">
+      <DependentUpon>frmLinearCalc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLinear.resx">
       <DependentUpon>frmLinear.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMenu.resx">
       <DependentUpon>frmMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTemp.resx">
-      <DependentUpon>frmTemp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmVolume.resx">
       <DependentUpon>frmVolume.cs</DependentUpon>
@@ -101,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,6 +106,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

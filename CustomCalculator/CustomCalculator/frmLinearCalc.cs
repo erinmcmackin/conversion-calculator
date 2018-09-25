@@ -378,8 +378,6 @@ namespace CustomCalculator
         private void btnReturnLinConvert_Click(object sender, EventArgs e)
         {
             this.Close();
-            var formMenu = new frmMenu();
-            formMenu.Show();
         }
 
         private void btnReturnLinConvert_Click_1(object sender, EventArgs e)
